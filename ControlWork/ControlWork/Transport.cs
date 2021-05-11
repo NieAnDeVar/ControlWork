@@ -15,7 +15,7 @@ namespace ControlWork
         public void CheckFullPrice()
         {
             CalculateFullPrice();
-            Hook1();
+            HookAdditionaTaxes();
             CalculateTax();
             PrintDetails();
             
@@ -33,7 +33,7 @@ namespace ControlWork
             Console.WriteLine("Price for Auto:");
             Console.WriteLine($"Full Price for {Legth} = {FullPrice} ");
         }
-        protected virtual void Hook1() { }
+        protected virtual void HookAdditionaTaxes() { }
         protected abstract void CalculateTax();
 
         
