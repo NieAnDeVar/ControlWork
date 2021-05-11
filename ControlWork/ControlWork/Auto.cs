@@ -18,6 +18,7 @@ namespace ControlWork
             int PriceFor100km = FuelPrice * ConsumptionPer100Km;
             int PriceForStopping = NumOfStopping * PriceOfStopping;
             int FullPrice = PriceFor100km + PriceForStopping;
+            Console.WriteLine("Price for Auto:");
             Console.WriteLine($"Full Price for {Legth} = {FullPrice} ");
         }
     }
