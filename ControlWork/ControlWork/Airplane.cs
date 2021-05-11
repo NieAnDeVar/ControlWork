@@ -20,6 +20,7 @@ namespace ControlWork
             int PriceForStopping = NumOfStopping * PriceOfStopping;
             int FullTax = Tax * TaxMultiplier;
             int FullPrice = PriceFor100km + PriceForStopping + PriceForRent - FullTax;
+            Console.WriteLine("Price for Airplane:");
             Console.WriteLine($"Full Price for {Legth} = {FullPrice} ");
         }
     }
