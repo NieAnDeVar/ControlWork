@@ -40,6 +40,7 @@
     <ItemGroup>
         <Compile Include="Airplane.cs" />
         <Compile Include="Auto.cs" />
+        <Compile Include="Client.cs" />
         <Compile Include="Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
         <Compile Include="Transport.cs" />
